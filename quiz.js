@@ -15,7 +15,7 @@ function answer (){
             i= i +1;
         }
     }
-    }//i= i +1;
+    }
     console.log(score)
 
     if (score === 4){

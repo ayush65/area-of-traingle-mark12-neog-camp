@@ -1,0 +1,17 @@
+body{
+          margin-left: 700px;
+          margin-top: 300px;
+           text-decoration: none;
+           background-color: #242B2E;
+           font-family: 'Pacifico', cursive;
+           font-size: larger;
+        
+}
+
+.link{
+          color: white;
+}
+#h1{
+          color: white;
+          max-width: 50px;
+}
