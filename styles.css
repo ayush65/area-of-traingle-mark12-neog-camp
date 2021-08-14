@@ -1,0 +1,53 @@
+
+
+body {
+          font-family: 'Pacifico', cursive;
+          background-color: #242B2E;
+          color: white;
+
+      }
+
+#link1 {
+          padding-left: 450px;
+          display: flex;
+          flex-direction: column;
+        
+}
+
+#check {
+          max-width: 200px;
+          margin-top: 30px;
+}
+
+#height {
+          max-width: 300px;
+}
+
+#base {
+          max-width: 300px;
+}
+
+.link{
+          color: white;
+}
+
+.button {
+          max-width: 200px;
+          margin-top: 30px;
+          background-color: white;
+}
+
+#input-side1{
+          max-width: 150px;
+          margin-bottom: 30px;
+          
+}
+
+#input-side2 {
+          max-width: 150px;
+          margin-bottom: 20px;
+}
+
+.check {
+          max-width: 200px;
+}
