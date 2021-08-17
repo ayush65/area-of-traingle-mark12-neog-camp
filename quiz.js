@@ -1,33 +1,22 @@
-const QuizForm = document.querySelector(".form")
-const CheckButton = document.querySector(".output")
-const OutputDiv = document.querySelelector(".button")
-const rightanswers = ["3","180","isoceles","130"];
+const quizForm = document.querySelector(".quiz-form");
+const submitAnsBtn = document.querySelector("#check");
+const outputs = document.querySelector("#output");
 
-function answer (){
+const correctAnswers = ["90", "right angled"];
+
+submitAnsBtn.addEventListener("click", calculateScore)
+
+function calculateScore(){
     let score = 0;
-    let i = 0;
-    const inputresults = new FormData(QuizForm);
-    for (let value of inputresults.values()){
-        for(let i = 0 ; i<=3;i++){
-        if (value === rightanswers[i]){
-            score = score + 1;     
-            console.log(value)
-            i= i +1;
+    let index = 0;
+    const formResults = new FormData(quizForm);
+    for(let value of formResults.values()){
+        if(value === correctAnswers[index]){
+            score++;
         }
+        index++;
     }
-    }
-    console.log(score)
-
-    if (score === 4){
-        OutputDiv.innerText = "Yeah Yeah you scored 4 points ... Don't brag about it"
-    }else {
-        OutputDiv.innerText = "Your Score is " + score + "..Oopsiee😁"
-    }
-
-
+    console.log(score);
+    output.innerText = "Your score is : " + score;
 }
 
-
-
-
-CheckButton.addEventListener("click",answer);
