@@ -1,17 +1,48 @@
 body{
-          margin-left: 700px;
-          margin-top: 300px;
+         
            text-decoration: none;
-           background-color: #242B2E;
+           background-color: white;
            font-family: 'Pacifico', cursive;
            font-size: larger;
         
 }
 
-.link{
-          color: white;
+
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+   
 }
-#h1{
-          color: white;
-          max-width: 50px;
+
+.navigation-bar{
+    margin-left: 600px;
+    max-width: 400px;
 }
+
+.link-primary {
+    background-color: #242B2E;
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+#heading{
+    position: relative;
+    background-color: #242B2E;
+    padding: 2rem 0rem;
+    text-align: center;
+    color: var(--primary-light);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+    margin-top: 0%;
+}
+
+
