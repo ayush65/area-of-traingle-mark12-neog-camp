@@ -1,7 +1,7 @@
 
 # Area of traingles 
 
-A brief description of what this project does and who it's for get the information about the triangles and its properties .
+This project helps us to get the information about the triangles and its properties .
 
 To know the triangle exists or not , to know the area of the traingle when the 2 sides are given and to calculate its area ,
 To know the Hypotenuese of the triangle And atlast to play the triangle quiz .
